@@ -8,7 +8,8 @@
 #!/bin/bash
 
 if [ "$(whoami)" != "root" ]; then
-	echo "Run script as ROOT please. (sudo !!)"
+	echo "Italiano: Esegui lo script come ROOT per favore. (sudo !!)"
+	echo "English: Run script as ROOT please. (sudo !!)"
 	exit
 fi
 #prepare template for syslog logs
